@@ -78,3 +78,17 @@ def organiser_fichier(chemin_dossierSource):
         
 
 organiser_fichier("MonDossier")
+
+"""
+    if __name__ == "__main__":
+    # Demander le chemin du dossier à organiser
+    print("=== Organisation de fichiers par type ===\n")
+    
+    chemin = input("Entrez le chemin du dossier à organiser (ou '.' pour le dossier actuel): ").strip()
+    
+    if chemin == '':
+        chemin = '.'
+    
+    print(f"\n📁 Organisation du dossier: {os.path.abspath(chemin)}\n")
+    organiser_fichiers(chemin)
+"""
